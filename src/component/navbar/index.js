@@ -1,13 +1,13 @@
 import React from 'react';
-import './style.css';
+import {NavLink} from 'react-router-dom';
+
 
 const Navbar = () => {
     return(
-
         <div>
-            Navbar Section
+            <NavLink exact to="/"> Home </NavLink>
+            <NavLink exact to="/contact"> Contact </NavLink>
         </div>
-
     )
 }
 
